@@ -1,0 +1,286 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.second {
+  margin-top: 2%;
+}
+
+.hs2 {
+  font-size: 3rem;
+}
+
+.third {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  /* padding: 30px 0; */
+}
+
+.card {
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  border: 2px solid white;
+  position: relative;
+}
+
+.card-a {
+  text-decoration-line: none;
+  color: white;
+}
+.heading-card {
+  font-size: 23px;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image-container {
+  height: 40%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+.description-card {
+  height: 25%;
+  padding: 0 5px;
+  font-size: 18px;
+  text-align: justify;
+  overflow: hidden;
+}
+.page-container {
+  margin-top: 50px;
+}
+
+.footer-card {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.third-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.third-first-children {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.third-second-children {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+.img-class {
+  position: relative;
+}
+.pos-title {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.column-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.cardc1-cotainer,
+.cardc3-cotainer {
+  width: 100%;
+  height: 120px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+}
+.cardc1-img {
+  width: 18%;
+  height: 100%;
+}
+
+.cardc1-heading {
+  width: 80%;
+  height: 40px;
+  position: absolute;
+  top: 5px;
+  left: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardc3-heading {
+  width: 80%;
+  height: 60px;
+  position: absolute;
+  top: 5px;
+  left: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardc1-heading h1,
+.cardc3-heading h1 {
+  font-size: 1.5em;
+}
+
+.cardc1-des {
+  width: 80%;
+  height: 50px;
+  position: absolute;
+  top: 43px;
+  left: 20%;
+  font-size: 1em;
+  text-align: justify;
+  overflow: hidden;
+}
+.cardc1-category {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  font-size: 1em;
+  color: gray;
+}
+
+.tsc-first {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.tsc-first h2 {
+  text-decoration-line: underline;
+}
+
+.cardc1-heading h2,
+.cardc3-heading h2 {
+  font-size: 3em;
+  color: gray;
+  font-weight: 700;
+  text-decoration-line: none;
+}
+
+.cardc2-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.cardc2-img {
+  width: 100%;
+  height: 150px;
+}
+
+.cardc2-heading {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardc2-heading h1 {
+  font-size: 1.3rem;
+}
+
+.cardc2-heading h2 {
+  font-size: 2rem;
+  color: gray;
+  font-weight: 700;
+  text-decoration-line: none;
+}
+.cardc2-des {
+  height: 70px;
+  overflow: hidden;
+  text-align: justify;
+}
+.third-second-children .cardc3-cotainer {
+  width: 350px;
+}
+
+.cardc2-category {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+.cardc3-category {
+  height: 50px;
+  position: absolute;
+  top: 61px;
+  left: 20%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 1em;
+  color: gray;
+}
+.ad {
+  width: 100%;
+  height: 350px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+  .cardc1-cotainer {
+    width: 94vw;
+  }
+  .cardc1-heading h1 {
+    font-size: 1em;
+  }
+  .cardc1-heading h2 {
+    font-size: 2em;
+  }
+  .cardc1-des {
+    font-size: 0.9em;
+  }
+  .pos-title h1 {
+    font-size: 1.2rem;
+  }
+  .pos-title h3 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .third-second-children .cardc3-cotainer {
+    width: 94vw;
+  }
+  .ad {
+    width: 94vw;
+    height: 100px;
+  }
+}
